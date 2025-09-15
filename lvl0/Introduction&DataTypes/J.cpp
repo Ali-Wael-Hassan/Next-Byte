@@ -1,11 +1,12 @@
-// This question will be replaced for some issues
 #include <iostream>
 
 using namespace std;
 
 int main() {
+    // take input
     int a, b; cin >> a >> b;
-    cout << a%10 + b%10 << '\n';
+    // area = l*w, perimeter = 2*(l+w)
+    cout << a*b << ' ' << 2*(a+b) << '\n';
     
     return 0;
 }
